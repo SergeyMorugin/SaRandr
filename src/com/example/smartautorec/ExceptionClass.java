@@ -2,6 +2,8 @@ package com.example.smartautorec;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 
+import com.example.smartautorec.ServiceClass;
+
 public class ExceptionClass implements UncaughtExceptionHandler{
 
 	Thread.UncaughtExceptionHandler oldHandler;
