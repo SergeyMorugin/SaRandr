@@ -1,23 +1,14 @@
 package com.example.smartautorec;
 
 import java.io.BufferedOutputStream;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import android.widget.TextView;
-import android.widget.Toast;
 
 public final class ServiceClass {
 	// Версия
@@ -54,17 +45,24 @@ public final class ServiceClass {
 
 	//
 	public static final String Date_format1 = "yyyy-MM-dd_HH-mm-ss";
+	
 	public static final String Date_format2 = "yyyy-MM-dd";
 	public static final String Date_format3 = "yyyy-MM-dd_HH";
+	
+	
 	private static String fLastLogName = "1.txt";
 	public static TextView LogText = null;
-
+	
 	// Время записи одного файла
 	public static final int MAX_TIME_RECORD_DURATION = 300000;
 	// Время на затухание вибрации при ударе
 	public static final int ACCEL_ATTENUATION_DURATION = 10000;
 	//
 	public static final float ACCEL_MAX_VALUE = 1;
+	
+	//
+	public static final String ServerRailsAddress = "http://192.168.1.105:3000/api/v1/jconfig.json";
+	
 	
 	// формирует строку текущего времени по маске
 	public static String currentDateToString(String df) {

@@ -1,7 +1,5 @@
 package com.example.smartautorec;
 
-import com.example.smartautorec.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.WindowManager;

@@ -1,23 +1,5 @@
 package com.example.smartautorec;
 
-import java.io.File;
-import java.io.IOException;
-
-import android.content.Context;
-import android.content.Intent;
-import android.hardware.Camera;
-import android.net.Uri;
-import android.os.Bundle;
-import android.os.PowerManager;
-import android.view.SurfaceView;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.example.smartautorec.MainActivity.PlaceholderFragment;
 
 public class TrashFile {
 

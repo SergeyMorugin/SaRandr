@@ -1,5 +1,7 @@
 package com.example.smartautorec;
 
+import com.example.smartautorec.ServiceClass;
+
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

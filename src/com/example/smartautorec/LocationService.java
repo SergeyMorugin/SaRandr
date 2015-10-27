@@ -1,20 +1,15 @@
 package com.example.smartautorec;
 
 import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.net.Socket;
-import java.net.UnknownHostException;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.TimeZone;
+
+import com.example.smartautorec.ServiceClass;
 
 import android.app.Service;
 import android.content.Intent;

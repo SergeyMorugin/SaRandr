@@ -1,15 +1,13 @@
 package com.example.smartautorec;
 
-import java.io.BufferedInputStream;
-import java.lang.Math;
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.Calendar;
 
-import android.app.Notification;
-import android.app.PendingIntent;
+import com.example.smartautorec.ServiceClass;
+
 import android.app.Service;
 import android.content.Intent;
 import android.hardware.Sensor;

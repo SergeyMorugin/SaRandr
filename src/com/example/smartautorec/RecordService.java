@@ -3,6 +3,8 @@ package com.example.smartautorec;
 import java.io.File;
 import java.io.IOException;
 
+import com.example.smartautorec.ServiceClass;
+
 import android.app.Service;
 import android.content.Intent;
 import android.hardware.Camera;
@@ -12,8 +14,6 @@ import android.media.MediaRecorder;
 import android.media.MediaRecorder.OnInfoListener;
 import android.os.IBinder;
 import android.view.SurfaceHolder;
-import android.view.SurfaceView;
-import android.view.View.OnClickListener;
 
 
 public class RecordService extends Service implements AutoFocusCallback,
